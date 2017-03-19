@@ -11,12 +11,12 @@
         <gerritUserName>jenkins</gerritUserName>
         <gerritEMail></gerritEMail>
         <gerritAuthKeyFile>/var/jenkins_home/.ssh/id_rsa</gerritAuthKeyFile>
-        <gerritAuthKeyFilePassword>MGiEPPaLpzjKAaOm/ih/jg==</gerritAuthKeyFilePassword>
+        <gerritAuthKeyFilePassword>{AQAAABAAAAAQqs2FO/Y8dAgJ+p+iR8WjiIIHx7CH6iMCDrwI6zp576M=}</gerritAuthKeyFilePassword>
         <useRestApi>true</useRestApi>
         <gerritHttpUserName>jenkins</gerritHttpUserName>
-        <gerritHttpPassword>tj88rY5/JIOmKWlAqVJLT0u9o/5xzBCJyhSZ7N6pEAPdsQtsUKH3IZ7sm7hAE6vRTMN8wunw/iJRdnKRmcJ1WA==</gerritHttpPassword>
+        <gerritHttpPassword>{AQAAABAAAAAwP9HSBskceLlSYP1Mk3S71BiceS6NPs7Gk/vkX6tM9QvNfn3hgBFPECrXoXjQ4wrHNUYQJCJVkBTSSyIK98+3mw==}</gerritHttpPassword>
         <restCodeReview>true</restCodeReview>
-        <restVerified>false</restVerified>
+        <restVerified>true</restVerified>
         <gerritVerifiedCmdBuildSuccessful>gerrit review &lt;CHANGE&gt;,&lt;PATCHSET&gt; --message &apos;Build Successful &lt;BUILDS_STATS&gt;&apos; --verified &lt;VERIFIED&gt; --code-review &lt;CODE_REVIEW&gt;</gerritVerifiedCmdBuildSuccessful>
         <gerritVerifiedCmdBuildUnstable>gerrit review &lt;CHANGE&gt;,&lt;PATCHSET&gt; --message &apos;Build Unstable &lt;BUILDS_STATS&gt;&apos; --verified &lt;VERIFIED&gt; --code-review &lt;CODE_REVIEW&gt;</gerritVerifiedCmdBuildUnstable>
         <gerritVerifiedCmdBuildFailed>gerrit review &lt;CHANGE&gt;,&lt;PATCHSET&gt; --message &apos;Build Failed &lt;BUILDS_STATS&gt;&apos; --verified &lt;VERIFIED&gt; --code-review &lt;CODE_REVIEW&gt;</gerritVerifiedCmdBuildFailed>

@@ -8,13 +8,13 @@
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <refspec> $GERRIT_REFSPEC</refspec>
-        <url>http://172.17.0.2:8080/zoo</url>
+        <refspec>refs/changes/*:refs/changes/*</refspec>
+        <url>http://gerrit:8080/zoo</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>**</name>
+        <name>$GERRIT_REFSPEC</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
