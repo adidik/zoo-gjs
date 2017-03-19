@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-03-19 15:12:26.301 UTC</timestamp>
+  <original>
+    <name>zoo master verify/com.zoo:zoo</name>
+    <number>3</number>
+  </original>
+  <md5sum>24e76394afe45ac45f17129ece53db88</md5sum>
+  <fileName>com.zoo:zoo-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>zoo master verify/com.zoo:zoo</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>zoo master verify</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

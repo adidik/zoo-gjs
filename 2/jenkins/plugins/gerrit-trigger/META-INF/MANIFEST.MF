@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: rsandell
+Build-Jdk: 1.8.0_73
+Extension-Name: gerrit-trigger
+Specification-Title: Integrates with Gerrit code review.
+Implementation-Title: gerrit-trigger
+Implementation-Version: 2.23.0
+Plugin-Class: com.sonyericsson.hudson.plugins.gerrit.trigger.PluginImpl
+Group-Id: com.sonyericsson.hudson.plugins.gerrit
+Short-Name: gerrit-trigger
+Long-Name: Gerrit Trigger
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Gerrit+Trigger
+Plugin-Version: 2.23.0
+Hudson-Version: 1.609.3
+Jenkins-Version: 1.609.3
+Plugin-Dependencies: rebuild:1.25;resolution:=optional,workflow-step-a
+ pi:1.14;resolution:=optional,git-client:1.11.1;resolution:=optional,g
+ it:2.3;resolution:=optional,rabbitmq-consumer:2.2;resolution:=optiona
+ l,structs:1.1,support-core:2.31;resolution:=optional
+Plugin-Developers: Robert Sandell:rsandell:robert.sandell@cloudbees.co
+ m,Tomas Westling:twestling:tomas.westling@sonymobile.com
+
