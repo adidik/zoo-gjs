@@ -86,6 +86,7 @@
     <artifactId>zoo</artifactId>
   </rootModule>
   <goals>clean install sonar:sonar</goals>
+  <mavenOpts>-Dsonar.analysis.mode=preview -Dsonar.report.export.path=sonar-report.json -Dsonar.host.url=http://sonarqube:9000</mavenOpts>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
   <ignoreUpstremChanges>false</ignoreUpstremChanges>
@@ -103,7 +104,7 @@
   <reporters/>
   <publishers>
     <org.jenkinsci.plugins.sonargerrit.SonarToGerritPublisher plugin="sonar-gerrit@1.0.7.6">
-      <sonarURL>http://localhost:9000</sonarURL>
+      <sonarURL>http://sonarqube:9000</sonarURL>
       <subJobConfigs>
         <org.jenkinsci.plugins.sonargerrit.SubJobConfig>
           <projectPath></projectPath>
