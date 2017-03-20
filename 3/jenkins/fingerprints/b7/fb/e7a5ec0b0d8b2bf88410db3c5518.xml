@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-03-19 15:11:15.793 UTC</timestamp>
+  <md5sum>b7fbe7a5ec0b0d8b2bf88410db3c5518</md5sum>
+  <fileName>org.springframework.boot:spring-boot-starter-jdbc-1.5.2.RELEASE.jar</fileName>
+  <usages>
+    <entry>
+      <string>zoo master verify/com.zoo:zoo</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo master verify</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify/com.zoo:zoo</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

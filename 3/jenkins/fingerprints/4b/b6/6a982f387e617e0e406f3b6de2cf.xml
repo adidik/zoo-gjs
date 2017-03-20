@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-03-19 15:11:15.565 UTC</timestamp>
+  <md5sum>4bb66a982f387e617e0e406f3b6de2cf</md5sum>
+  <fileName>com.h2database:h2-1.4.193.jar</fileName>
+  <usages>
+    <entry>
+      <string>zoo master verify/com.zoo:zoo</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo master verify</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify/com.zoo:zoo</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

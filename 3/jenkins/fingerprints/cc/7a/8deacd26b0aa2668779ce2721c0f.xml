@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-03-19 15:11:15.530 UTC</timestamp>
+  <md5sum>cc7a8deacd26b0aa2668779ce2721c0f</md5sum>
+  <fileName>ch.qos.logback:logback-core-1.1.11.jar</fileName>
+  <usages>
+    <entry>
+      <string>zoo master verify/com.zoo:zoo</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo master verify</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify/com.zoo:zoo</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

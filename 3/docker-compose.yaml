@@ -1,0 +1,29 @@
+version: '2'
+services:
+  gerrit:
+    image: "openfrontier/gerrit"
+    ports:
+     - "8080:8080"
+     - "29418:29418"
+    volumes:
+     - ./gerrit:/var/gerrit/review_site
+    environment:
+     - AUTH_TYPE=DEVELOPMENT_BECOME_ANY_ACCOUNT
+     - GERRIT_INIT_ARGS=--install-plugin=download-commands
+  sonarqube:
+    image: "sonarqube"
+    ports:
+     - "9000:9000"
+     - "9092:9092"
+    volumes:
+     - ./sonar:/opt/sonarqube/data
+  jenkins:
+    image: "jenkins"
+    ports:
+     - "8081:8080"
+     - "50000:50000"
+    volumes:
+     - ./jenkins:/var/jenkins_home
+    links:
+     - gerrit
+     - sonarqube

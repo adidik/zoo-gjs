@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-03-19 15:11:15.427 UTC</timestamp>
+  <md5sum>6f2969f0eb541a6f4ecfa15faa8155d7</md5sum>
+  <fileName>ognl:ognl-3.0.8.jar</fileName>
+  <usages>
+    <entry>
+      <string>zoo master verify/com.zoo:zoo</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo master verify</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify/com.zoo:zoo</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

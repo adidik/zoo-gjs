@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-03-19 15:11:15.664 UTC</timestamp>
+  <md5sum>c7f68cea0796caf11585998f3bbe858f</md5sum>
+  <fileName>nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect-1.4.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>zoo master verify/com.zoo:zoo</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo master verify</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify/com.zoo:zoo</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
