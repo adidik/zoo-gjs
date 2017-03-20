@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <com.sonyericsson.hudson.plugins.gerrit.trigger.playback.EventTimeSlice plugin="gerrit-trigger@2.23.0">
-  <timeSlice>1489962656000</timeSlice>
+  <timeSlice>1490020220000</timeSlice>
   <events class="java.util.Collections$SynchronizedRandomAccessList" resolves-to="java.util.Collections$SynchronizedList" serialization="custom">
     <java.util.Collections_-SynchronizedCollection>
       <default>
@@ -14,13 +14,13 @@
             <provider>
               <name>Gerrit</name>
             </provider>
-            <receivedOn>1489962790217</receivedOn>
-            <eventCreatedOn>2017-03-19 22:30:56.0 UTC</eventCreatedOn>
+            <receivedOn>1490040703504</receivedOn>
+            <eventCreatedOn>2017-03-20 14:30:20.0 UTC</eventCreatedOn>
             <refUpdate>
               <project>All-Projects</project>
               <refName>refs/meta/config</refName>
-              <oldRev>5c72d69026035a3566b07e6349af9b4849047757</oldRev>
-              <newRev>fb143d8e878bc60f5c023b4fd6741c0d0faa9ef2</newRev>
+              <oldRev>421e493be6432d6e73c4caa58ed85cda2b12a898</oldRev>
+              <newRev>179d8f209d1200062e47b85be7fb8e6ffa89c869</newRev>
             </refUpdate>
           </com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.events.RefUpdated>
         </c>
