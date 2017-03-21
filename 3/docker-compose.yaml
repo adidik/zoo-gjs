@@ -15,8 +15,6 @@ services:
     ports:
      - "9000:9000"
      - "9092:9092"
-    volumes:
-     - ./sonar:/opt/sonarqube/data
   jenkins:
     image: "jenkins"
     ports:
