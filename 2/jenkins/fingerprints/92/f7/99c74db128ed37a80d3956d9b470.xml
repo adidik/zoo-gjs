@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-03-21 21:35:07.12 UTC</timestamp>
+  <original>
+    <name>zoo-verify/com.zoo:zoo</name>
+    <number>2</number>
+  </original>
+  <md5sum>92f799c74db128ed37a80d3956d9b470</md5sum>
+  <fileName>com.zoo:zoo-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>zoo-verify/com.zoo:zoo</string>
+      <ranges>2</ranges>
+    </entry>
+    <entry>
+      <string>zoo-verify</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

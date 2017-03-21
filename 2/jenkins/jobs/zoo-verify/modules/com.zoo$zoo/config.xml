@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <maven2 plugin="maven-plugin@2.7.1">
+  <actions/>
   <keepDependencies>false</keepDependencies>
   <properties/>
   <scm class="hudson.scm.NullSCM"/>
