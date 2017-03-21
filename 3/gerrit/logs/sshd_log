@@ -37,3 +37,33 @@
 [2017-03-20 20:12:17,059 +0000] b5cdb246 jenkins a/1000005 LOGIN FROM 172.19.0.4
 [2017-03-20 20:12:18,433 +0000] b5cdb246 jenkins a/1000005 gerrit.ls-projects 96ms 984ms 0
 [2017-03-20 20:12:18,618 +0000] b5cdb246 jenkins a/1000005 LOGOUT
+[2017-03-21 16:14:44,426 +0000] 19d9731d jenkins a/1000005 LOGIN FROM 172.19.0.4
+[2017-03-21 16:14:45,323 +0000] 19d9731d jenkins a/1000005 gerrit.version 257ms 43ms 0
+[2017-03-21 16:14:46,854 +0000] 99980367 jenkins a/1000005 LOGIN FROM 172.19.0.4
+[2017-03-21 16:14:47,919 +0000] 99980367 jenkins a/1000005 gerrit.ls-projects 27ms 502ms 0
+[2017-03-21 16:14:48,003 +0000] 99980367 jenkins a/1000005 LOGOUT
+[2017-03-21 16:21:29,367 +0000] 79b3cff4 jenkins a/1000005 LOGIN FROM 172.19.0.4
+[2017-03-21 16:21:29,985 +0000] 79b3cff4 jenkins a/1000005 gerrit.query.--format=JSON.--current-patch-set.status:open 103ms 378ms 0
+[2017-03-21 16:21:30,008 +0000] 79b3cff4 jenkins a/1000005 LOGOUT
+[2017-03-21 16:26:14,672 +0000] 19d9731d jenkins a/1000005 gerrit.stream-events 0ms 689300ms 0
+[2017-03-21 16:26:14,675 +0000] 19d9731d jenkins a/1000005 LOGOUT
+[2017-03-21 16:29:55,996 +0000] 250aa38c jenkins a/1000005 LOGIN FROM 172.19.0.4
+[2017-03-21 16:29:57,449 +0000] 250aa38c jenkins a/1000005 gerrit.version 368ms 62ms 0
+[2017-03-21 16:30:55,412 +0000] a5fd3386 jenkins a/1000005 LOGIN FROM 172.19.0.4
+[2017-03-21 16:30:55,929 +0000] a5fd3386 jenkins a/1000005 gerrit.ls-projects 97ms 222ms 0
+[2017-03-21 16:30:56,188 +0000] a5fd3386 jenkins a/1000005 LOGOUT
+[2017-03-21 18:44:38,579 +0000] cae074f1 jenkins a/1000005 LOGIN FROM 172.19.0.4
+[2017-03-21 18:44:39,435 +0000] cae074f1 jenkins a/1000005 gerrit.query.--format=JSON.--current-patch-set.status:open 184ms 538ms 0
+[2017-03-21 18:44:39,505 +0000] cae074f1 jenkins a/1000005 LOGOUT
+[2017-03-21 18:53:41,398 +0000] 250aa38c jenkins a/1000005 LOGOUT
+[2017-03-21 18:53:41,429 +0000] 250aa38c jenkins a/1000005 gerrit.stream-events 0ms 8623913ms 0
+[2017-03-21 19:25:06,613 +0000] ddd38946 jenkins a/1000005 LOGIN FROM 172.19.0.4
+[2017-03-21 19:25:09,451 +0000] ddd38946 jenkins a/1000005 gerrit.version 370ms 67ms 0
+[2017-03-21 19:25:43,221 +0000] 9db0b12e jenkins a/1000005 LOGIN FROM 172.19.0.4
+[2017-03-21 19:25:44,013 +0000] 9db0b12e jenkins a/1000005 gerrit.ls-projects 69ms 486ms 0
+[2017-03-21 19:25:44,260 +0000] 9db0b12e jenkins a/1000005 LOGOUT
+[2017-03-21 19:31:05,856 +0000] bda7b5f5 jenkins a/1000005 LOGIN FROM 172.19.0.4
+[2017-03-21 19:31:06,581 +0000] bda7b5f5 jenkins a/1000005 gerrit.query.--format=JSON.--current-patch-set.status:open 115ms 455ms 0
+[2017-03-21 19:31:06,645 +0000] bda7b5f5 jenkins a/1000005 LOGOUT
+[2017-03-21 19:35:36,844 +0000] ddd38946 jenkins a/1000005 gerrit.stream-events 0ms 627340ms 0
+[2017-03-21 19:35:36,866 +0000] ddd38946 jenkins a/1000005 LOGOUT

@@ -1,28 +1,80 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <com.sonyericsson.hudson.plugins.gerrit.trigger.playback.EventTimeSlice plugin="gerrit-trigger@2.23.0">
-  <timeSlice>1490020220000</timeSlice>
+  <timeSlice>1490113309000</timeSlice>
   <events class="java.util.Collections$SynchronizedRandomAccessList" resolves-to="java.util.Collections$SynchronizedList" serialization="custom">
     <java.util.Collections_-SynchronizedCollection>
       <default>
         <c class="list">
-          <com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.events.RefUpdated>
+          <com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.events.CommentAdded>
             <account>
-              <name>Administrator</name>
-              <email>admin@example.com</email>
-              <username>admin</username>
+              <name>Jenkins R2D2</name>
+              <username>jenkins</username>
             </account>
             <provider>
               <name>Gerrit</name>
             </provider>
-            <receivedOn>1490040703504</receivedOn>
-            <eventCreatedOn>2017-03-20 14:30:20.0 UTC</eventCreatedOn>
-            <refUpdate>
-              <project>All-Projects</project>
-              <refName>refs/meta/config</refName>
-              <oldRev>421e493be6432d6e73c4caa58ed85cda2b12a898</oldRev>
-              <newRev>179d8f209d1200062e47b85be7fb8e6ffa89c869</newRev>
-            </refUpdate>
-          </com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.events.RefUpdated>
+            <receivedOn>1490113809581</receivedOn>
+            <eventCreatedOn>2017-03-21 16:21:49.0 UTC</eventCreatedOn>
+            <change>
+              <project>zoo</project>
+              <branch>master</branch>
+              <id>I14b5517f93fdd27b3bfab81fa21575ba8a0bdced</id>
+              <number>2</number>
+              <subject>Add new REST method to create zoo</subject>
+              <commitMessage>Add new REST method to create zoo
+
+New method is added to ZooController.
+For now you could provide only name.
+
+Change-Id: I14b5517f93fdd27b3bfab81fa21575ba8a0bdced
+Jira: ZOO-12
+</commitMessage>
+              <owner>
+                <name>Another Padawan</name>
+                <email>padawan@zoo.com</email>
+                <username>padawan</username>
+              </owner>
+              <url>http://b11001e0a3ec:8080/2</url>
+            </change>
+            <patchSet>
+              <number>1</number>
+              <revision>9f83f48b8f412fd70ba942b404956989514d3bb8</revision>
+              <ref>refs/changes/02/2/1</ref>
+              <draft>false</draft>
+              <kind>REWORK</kind>
+              <uploader>
+                <name>Another Padawan</name>
+                <email>padawan@zoo.com</email>
+                <username>padawan</username>
+              </uploader>
+              <author>
+                <name>Another Padawan</name>
+                <email>padawan@zoo.com</email>
+                <username>padawan</username>
+              </author>
+              <parents>
+                <string>578caf32df8b3db984108fd58a070a07737b9a15</string>
+              </parents>
+              <createdOn>2017-03-18 23:18:52.0 UTC</createdOn>
+            </patchSet>
+            <comment>Patch Set 1:
+
+Build Started http://localhost:8081/job/zoo-verify/2/</comment>
+            <approvals>
+              <com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.attr.Approval>
+                <type>Verified</type>
+                <value>0</value>
+              </com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.attr.Approval>
+              <com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.attr.Approval>
+                <type>Code-Review</type>
+                <value>0</value>
+              </com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.attr.Approval>
+              <com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.attr.Approval>
+                <type>Sonar-Verified</type>
+                <value>0</value>
+              </com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.attr.Approval>
+            </approvals>
+          </com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.events.CommentAdded>
         </c>
         <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
       </default>
