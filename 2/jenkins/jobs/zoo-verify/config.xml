@@ -85,7 +85,7 @@
     <groupId>com.zoo</groupId>
     <artifactId>zoo</artifactId>
   </rootModule>
-  <goals>clean install</goals>
+  <goals>test</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
   <ignoreUpstremChanges>false</ignoreUpstremChanges>

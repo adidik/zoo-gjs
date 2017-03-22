@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <com.sonyericsson.hudson.plugins.gerrit.trigger.playback.EventTimeSlice plugin="gerrit-trigger@2.23.0">
-  <timeSlice>1490132224000</timeSlice>
+  <timeSlice>1490132304000</timeSlice>
   <events class="java.util.Collections$SynchronizedRandomAccessList" resolves-to="java.util.Collections$SynchronizedList" serialization="custom">
     <java.util.Collections_-SynchronizedCollection>
       <default>
@@ -13,8 +13,8 @@
             <provider>
               <name>Gerrit</name>
             </provider>
-            <receivedOn>1490143037216</receivedOn>
-            <eventCreatedOn>2017-03-21 21:37:04.0 UTC</eventCreatedOn>
+            <receivedOn>1490144421843</receivedOn>
+            <eventCreatedOn>2017-03-21 21:38:24.0 UTC</eventCreatedOn>
             <change>
               <project>zoo</project>
               <branch>master</branch>
@@ -57,13 +57,16 @@ Jira: ZOO-12
               </parents>
               <createdOn>2017-03-18 23:18:52.0 UTC</createdOn>
             </patchSet>
-            <comment>Patch Set 1:
+            <comment>Patch Set 1: Verified+1
 
-Build Started http://localhost:8081/job/zoo-verify/4/</comment>
+Build Successful 
+
+http://localhost:8081/job/zoo-verify/4/ : SUCCESS</comment>
             <approvals>
               <com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.attr.Approval>
                 <type>Verified</type>
-                <value>0</value>
+                <value>1</value>
+                <oldValue>0</oldValue>
               </com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.attr.Approval>
               <com.sonyericsson.hudson.plugins.gerrit.gerritevents.dto.attr.Approval>
                 <type>Code-Review</type>
