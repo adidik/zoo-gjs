@@ -35,3 +35,6 @@ copy init.groovy.d/tcp-slave-agent-port.groovy to JENKINS_HOME
 --- Copying files at Sun Mar 19 22:26:30 UTC 2017
 --- Copying files at Sun Mar 19 22:31:44 UTC 2017
 --- Copying files at Tue Mar 21 21:07:15 UTC 2017
+--- Copying files at Wed Mar 22 00:35:45 UTC 2017
+/usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groovy
+ /usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groovy -> init.groovy.d/tcp-slave-agent-port.groovy

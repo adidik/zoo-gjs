@@ -26,12 +26,12 @@
         <gerritBuildStartedVerifiedValue>0</gerritBuildStartedVerifiedValue>
         <gerritBuildSuccessfulVerifiedValue>1</gerritBuildSuccessfulVerifiedValue>
         <gerritBuildFailedVerifiedValue>-1</gerritBuildFailedVerifiedValue>
-        <gerritBuildUnstableVerifiedValue>0</gerritBuildUnstableVerifiedValue>
+        <gerritBuildUnstableVerifiedValue>-1</gerritBuildUnstableVerifiedValue>
         <gerritBuildNotBuiltVerifiedValue>0</gerritBuildNotBuiltVerifiedValue>
         <gerritBuildStartedCodeReviewValue>0</gerritBuildStartedCodeReviewValue>
         <gerritBuildSuccessfulCodeReviewValue>0</gerritBuildSuccessfulCodeReviewValue>
         <gerritBuildFailedCodeReviewValue>0</gerritBuildFailedCodeReviewValue>
-        <gerritBuildUnstableCodeReviewValue>-1</gerritBuildUnstableCodeReviewValue>
+        <gerritBuildUnstableCodeReviewValue>0</gerritBuildUnstableCodeReviewValue>
         <gerritBuildNotBuiltCodeReviewValue>0</gerritBuildNotBuiltCodeReviewValue>
         <enableManualTrigger>true</enableManualTrigger>
         <enablePluginMessages>true</enablePluginMessages>
